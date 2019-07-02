@@ -37,7 +37,7 @@ end
 def reduce_to_total(source_array, starting_point = 0)
   total = starting_point
   source_array.each do |number|
-    total += source_array
+    total += number
   end 
   total
 end 
@@ -45,7 +45,8 @@ end
 def reduce_to_all_true(source_array)
   reduction = true 
   source_array.each do |number|
-    if numberreduction = true
+    if number
+    then reduction = true
     else 
     return reduction = false
     end
