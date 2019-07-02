@@ -46,7 +46,7 @@ def reduce_to_all_true(source_array)
     if number
     then reduction = true
     else 
-    return reduction = false
+    reduction = false
     end
   end
   reduction
