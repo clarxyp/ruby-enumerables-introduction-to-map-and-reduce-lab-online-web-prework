@@ -54,7 +54,7 @@ end
 def reduce_to_any_true(source_array)
   i = 0 
   reduction = false
-  while i < source_array.length do
+  source_array.each do |number|
     if source_array[i]
     reduction = true
     end
