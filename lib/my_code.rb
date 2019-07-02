@@ -4,7 +4,7 @@ def map_to_negativize(array)
   array.each do |i|
   new_array.push(i * -1)
   end
-  return new_array
+  new_array
 end
 
 def map_to_no_change(array)
@@ -20,7 +20,7 @@ def map_to_double(array)
   array.each do |i|
   doubled_array << (array[i] * 2)
   end
-  return doubled_array
+  doubled_array
 end
 
 def map_to_square(array)
@@ -29,7 +29,7 @@ def map_to_square(array)
   squared_array.push(array[i] ** 2)
   i += 1 
   end
-  return squared_array
+  squared_array
 end
 
 def reduce_to_total(source_array, starting_point = 0)
