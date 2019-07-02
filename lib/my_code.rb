@@ -16,11 +16,9 @@ def map_to_no_change(array)
 end
 
 def map_to_double(array)
-  i = 0
-  doubled_array = Array.new
-  while i < array.length do 
+  doubled_array = []
+  array.each do |i|
   doubled_array << (array[i] * 2)
-  i += 1
   end
   return doubled_array
 end
@@ -28,7 +26,7 @@ end
 def map_to_square(array)
   i = 0 
   squared_array = []
-  while i < array.length do 
+  array.each do |i|
   squared_array.push(array[i] ** 2)
   i += 1 
   end
