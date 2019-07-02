@@ -43,7 +43,7 @@ def reduce_to_all_true(source_array)
   reduction = true 
   source_array.each do |i|
     if i
-    then reduction = true
+    reduction
     else 
     reduction = false
     end
@@ -54,7 +54,7 @@ end
 def reduce_to_any_true(source_array)
   reduction = false
   source_array.each do |i|
-    if source_array[i]
+    if i
     reduction = true
     end
   end
