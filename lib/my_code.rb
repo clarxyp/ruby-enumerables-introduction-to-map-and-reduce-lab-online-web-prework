@@ -45,8 +45,7 @@ end
 def reduce_to_all_true(source_array)
   reduction = true 
   source_array.each do |number|
-    if source_array[i]
-    reduction = true
+    if numberreduction = true
     else 
     return reduction = false
     end
