@@ -27,7 +27,6 @@ def map_to_square(array)
   squared_array = []
   array.each do |i|
   squared_array.push(array[i] ** 2)
-  i += 1 
   end
   squared_array
 end
