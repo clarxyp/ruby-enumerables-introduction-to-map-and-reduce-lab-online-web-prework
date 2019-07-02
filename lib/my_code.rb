@@ -8,7 +8,11 @@ def map_to_negativize(array)
 end
 
 def map_to_no_change(array)
-  array
+  new_array = Array.new 
+  array.each do |i|
+    new_array.push(i)
+  end
+  new_array
 end
 
 def map_to_double(array)
